@@ -254,8 +254,16 @@ PAGE1의 목적은 순위를 구경하는 것에서 끝나는 것이 아니라
 
 등의 캐릭터 이미지에 연결될 수 있도록 구성되어 있습니다.
 
+
+
+
 ```text
 FEMALE CHARACTER
+        ↕
+CHARACTER TYPE
+        ↕
+MALE CHARACTER
+```
 
 ---
 
@@ -265,7 +273,3 @@ FEMALE CHARACTER
 - [Visual Asset Contribution](./docs/visual-assets/)
 - [Final Frontend Integration](./final-integration/README.md)
 - [Contribution Evidence](./docs/CONTRIBUTION_EVIDENCE.md)
-        ↕
-CHARACTER TYPE
-        ↕
-MALE CHARACTER

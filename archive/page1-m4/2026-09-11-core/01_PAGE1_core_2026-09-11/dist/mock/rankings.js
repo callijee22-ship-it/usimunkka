@@ -1,0 +1,935 @@
+export const mockCatalog = {
+  "generated_at": "2026-09-11T19:00:00+09:00",
+  "users": [
+    {
+      "id": 7,
+      "nickname": "나",
+      "friend_code": "USIM-7K29",
+      "region_code": "11620",
+      "region_name": "관악구",
+      "province": "서울특별시",
+      "address": "서울특별시 관악구 봉천동",
+      "activity_score": 4180,
+      "previous_activity_score": 3920,
+      "color": "#c8ff3d"
+    },
+    {
+      "id": 2,
+      "nickname": "민수",
+      "friend_code": "USIM-MINSU",
+      "region_name": "강남구",
+      "province": "서울특별시",
+      "address": "서울특별시 강남구 역삼동",
+      "activity_score": 4820,
+      "previous_activity_score": 4700,
+      "color": "#ffd75f"
+    },
+    {
+      "id": 3,
+      "nickname": "지훈",
+      "friend_code": "USIM-JIHUN",
+      "region_name": "마포구",
+      "province": "서울특별시",
+      "address": "서울특별시 마포구 서교동",
+      "activity_score": 4510,
+      "previous_activity_score": 4520,
+      "color": "#74caff"
+    },
+    {
+      "id": 4,
+      "nickname": "서준",
+      "friend_code": "USIM-SEOJUN",
+      "region_name": "성동구",
+      "province": "서울특별시",
+      "address": "서울특별시 성동구 성수동",
+      "activity_score": 3940,
+      "previous_activity_score": 4010,
+      "color": "#ff9b76"
+    },
+    {
+      "id": 5,
+      "nickname": "하늘",
+      "friend_code": "USIM-HANEUL",
+      "region_name": "송파구",
+      "province": "서울특별시",
+      "address": "서울특별시 송파구 잠실동",
+      "activity_score": 3610,
+      "previous_activity_score": 3520,
+      "color": "#d2b0ff"
+    }
+  ],
+  "friendships": {
+    "7": [
+      2,
+      3
+    ],
+    "2": [
+      7,
+      3
+    ],
+    "3": [
+      7,
+      2
+    ],
+    "4": [
+      7
+    ],
+    "5": [
+      7
+    ]
+  },
+  "activity_daily": [
+    {
+      "date": "2026-09-09",
+      "window_days": 7,
+      "regions": [
+        {
+          "province": "서울특별시",
+          "region_name": "관악구",
+          "national_rank": 27,
+          "regional_rank": 5,
+          "score": 8000,
+          "metrics": {
+            "걷기": 12,
+            "생활체육": 8,
+            "운동환경": 21
+          }
+        },
+        {
+          "province": "경기도",
+          "region_name": "수원시",
+          "national_rank": 2,
+          "regional_rank": 1,
+          "score": 9407,
+          "metrics": {
+            "걷기": 3,
+            "생활체육": 1,
+            "운동환경": 6
+          }
+        },
+        {
+          "province": "부산광역시",
+          "region_name": "해운대구",
+          "national_rank": 8,
+          "regional_rank": 1,
+          "score": 9224,
+          "metrics": {
+            "걷기": 7,
+            "생활체육": 2,
+            "운동환경": 4
+          }
+        },
+        {
+          "province": "대전광역시",
+          "region_name": "유성구",
+          "national_rank": 6,
+          "regional_rank": 1,
+          "score": 9011,
+          "metrics": {
+            "걷기": 9,
+            "생활체육": 3,
+            "운동환경": 5
+          }
+        },
+        {
+          "province": "강원특별자치도",
+          "region_name": "춘천시",
+          "national_rank": 17,
+          "regional_rank": 1,
+          "score": 8478,
+          "metrics": {
+            "걷기": 4,
+            "생활체육": 11,
+            "운동환경": 7
+          }
+        },
+        {
+          "province": "충청북도",
+          "region_name": "청주시",
+          "national_rank": 10,
+          "regional_rank": 1,
+          "score": 8600,
+          "metrics": {
+            "걷기": 10,
+            "생활체육": 6,
+            "운동환경": 12
+          }
+        },
+        {
+          "province": "인천광역시",
+          "region_name": "연수구",
+          "national_rank": 13,
+          "regional_rank": 1,
+          "score": 8537,
+          "metrics": {
+            "걷기": 8,
+            "생활체육": 7,
+            "운동환경": 13
+          }
+        },
+        {
+          "province": "대구광역시",
+          "region_name": "수성구",
+          "national_rank": 12,
+          "regional_rank": 1,
+          "score": 8314,
+          "metrics": {
+            "걷기": 13,
+            "생활체육": 9,
+            "운동환경": 11
+          }
+        },
+        {
+          "province": "전북특별자치도",
+          "region_name": "전주시",
+          "national_rank": 11,
+          "regional_rank": 1,
+          "score": 8211,
+          "metrics": {
+            "걷기": 14,
+            "생활체육": 9,
+            "운동환경": 18
+          }
+        },
+        {
+          "province": "울산광역시",
+          "region_name": "남구",
+          "national_rank": 18,
+          "regional_rank": 1,
+          "score": 8168,
+          "metrics": {
+            "걷기": 17,
+            "생활체육": 12,
+            "운동환경": 9
+          }
+        },
+        {
+          "province": "세종특별자치시",
+          "region_name": "세종시",
+          "national_rank": 11,
+          "regional_rank": 1,
+          "score": 8070,
+          "metrics": {
+            "걷기": 6,
+            "생활체육": 15,
+            "운동환경": 10
+          }
+        },
+        {
+          "province": "충청남도",
+          "region_name": "천안시",
+          "national_rank": 20,
+          "regional_rank": 1,
+          "score": 7957,
+          "metrics": {
+            "걷기": 16,
+            "생활체육": 14,
+            "운동환경": 15
+          }
+        },
+        {
+          "province": "경상북도",
+          "region_name": "포항시",
+          "national_rank": 16,
+          "regional_rank": 1,
+          "score": 8384,
+          "metrics": {
+            "걷기": 11,
+            "생활체육": 10,
+            "운동환경": 8
+          }
+        },
+        {
+          "province": "경상남도",
+          "region_name": "창원시",
+          "national_rank": 16,
+          "regional_rank": 1,
+          "score": 7891,
+          "metrics": {
+            "걷기": 18,
+            "생활체육": 13,
+            "운동환경": 16
+          }
+        },
+        {
+          "province": "전남광주통합특별시",
+          "region_name": "광주권",
+          "national_rank": 21,
+          "regional_rank": 1,
+          "score": 7768,
+          "metrics": {
+            "걷기": 15,
+            "생활체육": 17,
+            "운동환경": 19
+          }
+        },
+        {
+          "province": "제주특별자치도",
+          "region_name": "제주시",
+          "national_rank": 10,
+          "regional_rank": 1,
+          "score": 8760,
+          "metrics": {
+            "걷기": 2,
+            "생활체육": 7,
+            "운동환경": 3
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "window_days": 7,
+      "regions": [
+        {
+          "province": "서울특별시",
+          "region_name": "관악구",
+          "national_rank": 25,
+          "regional_rank": 5,
+          "score": 8200,
+          "metrics": {
+            "걷기": 12,
+            "생활체육": 8,
+            "운동환경": 21
+          }
+        },
+        {
+          "province": "경기도",
+          "region_name": "수원시",
+          "national_rank": 3,
+          "regional_rank": 1,
+          "score": 9607,
+          "metrics": {
+            "걷기": 3,
+            "생활체육": 1,
+            "운동환경": 6
+          }
+        },
+        {
+          "province": "부산광역시",
+          "region_name": "해운대구",
+          "national_rank": 7,
+          "regional_rank": 1,
+          "score": 9424,
+          "metrics": {
+            "걷기": 7,
+            "생활체육": 2,
+            "운동환경": 4
+          }
+        },
+        {
+          "province": "대전광역시",
+          "region_name": "유성구",
+          "national_rank": 4,
+          "regional_rank": 1,
+          "score": 9211,
+          "metrics": {
+            "걷기": 9,
+            "생활체육": 3,
+            "운동환경": 5
+          }
+        },
+        {
+          "province": "강원특별자치도",
+          "region_name": "춘천시",
+          "national_rank": 18,
+          "regional_rank": 1,
+          "score": 8678,
+          "metrics": {
+            "걷기": 4,
+            "생활체육": 11,
+            "운동환경": 7
+          }
+        },
+        {
+          "province": "충청북도",
+          "region_name": "청주시",
+          "national_rank": 9,
+          "regional_rank": 1,
+          "score": 8800,
+          "metrics": {
+            "걷기": 10,
+            "생활체육": 6,
+            "운동환경": 12
+          }
+        },
+        {
+          "province": "인천광역시",
+          "region_name": "연수구",
+          "national_rank": 11,
+          "regional_rank": 1,
+          "score": 8737,
+          "metrics": {
+            "걷기": 8,
+            "생활체육": 7,
+            "운동환경": 13
+          }
+        },
+        {
+          "province": "대구광역시",
+          "region_name": "수성구",
+          "national_rank": 13,
+          "regional_rank": 1,
+          "score": 8514,
+          "metrics": {
+            "걷기": 13,
+            "생활체육": 9,
+            "운동환경": 11
+          }
+        },
+        {
+          "province": "전북특별자치도",
+          "region_name": "전주시",
+          "national_rank": 10,
+          "regional_rank": 1,
+          "score": 8411,
+          "metrics": {
+            "걷기": 14,
+            "생활체육": 9,
+            "운동환경": 18
+          }
+        },
+        {
+          "province": "울산광역시",
+          "region_name": "남구",
+          "national_rank": 16,
+          "regional_rank": 1,
+          "score": 8368,
+          "metrics": {
+            "걷기": 17,
+            "생활체육": 12,
+            "운동환경": 9
+          }
+        },
+        {
+          "province": "세종특별자치시",
+          "region_name": "세종시",
+          "national_rank": 12,
+          "regional_rank": 1,
+          "score": 8270,
+          "metrics": {
+            "걷기": 6,
+            "생활체육": 15,
+            "운동환경": 10
+          }
+        },
+        {
+          "province": "충청남도",
+          "region_name": "천안시",
+          "national_rank": 19,
+          "regional_rank": 1,
+          "score": 8157,
+          "metrics": {
+            "걷기": 16,
+            "생활체육": 14,
+            "운동환경": 15
+          }
+        },
+        {
+          "province": "경상북도",
+          "region_name": "포항시",
+          "national_rank": 14,
+          "regional_rank": 1,
+          "score": 8584,
+          "metrics": {
+            "걷기": 11,
+            "생활체육": 10,
+            "운동환경": 8
+          }
+        },
+        {
+          "province": "경상남도",
+          "region_name": "창원시",
+          "national_rank": 17,
+          "regional_rank": 1,
+          "score": 8091,
+          "metrics": {
+            "걷기": 18,
+            "생활체육": 13,
+            "운동환경": 16
+          }
+        },
+        {
+          "province": "전남광주통합특별시",
+          "region_name": "광주권",
+          "national_rank": 20,
+          "regional_rank": 1,
+          "score": 7968,
+          "metrics": {
+            "걷기": 15,
+            "생활체육": 17,
+            "운동환경": 19
+          }
+        },
+        {
+          "province": "제주특별자치도",
+          "region_name": "제주시",
+          "national_rank": 8,
+          "regional_rank": 1,
+          "score": 8960,
+          "metrics": {
+            "걷기": 2,
+            "생활체육": 7,
+            "운동환경": 3
+          }
+        }
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "window_days": 7,
+      "regions": [
+        {
+          "province": "서울특별시",
+          "region_name": "관악구",
+          "national_rank": 17,
+          "regional_rank": 5,
+          "score": 8420,
+          "metrics": {
+            "걷기": 12,
+            "생활체육": 8,
+            "운동환경": 21
+          }
+        },
+        {
+          "province": "경기도",
+          "region_name": "수원시",
+          "national_rank": 1,
+          "regional_rank": 1,
+          "score": 9827,
+          "metrics": {
+            "걷기": 3,
+            "생활체육": 1,
+            "운동환경": 6
+          }
+        },
+        {
+          "province": "부산광역시",
+          "region_name": "해운대구",
+          "national_rank": 2,
+          "regional_rank": 1,
+          "score": 9644,
+          "metrics": {
+            "걷기": 7,
+            "생활체육": 2,
+            "운동환경": 4
+          }
+        },
+        {
+          "province": "대전광역시",
+          "region_name": "유성구",
+          "national_rank": 3,
+          "regional_rank": 1,
+          "score": 9431,
+          "metrics": {
+            "걷기": 9,
+            "생활체육": 3,
+            "운동환경": 5
+          }
+        },
+        {
+          "province": "강원특별자치도",
+          "region_name": "춘천시",
+          "national_rank": 8,
+          "regional_rank": 1,
+          "score": 8898,
+          "metrics": {
+            "걷기": 4,
+            "생활체육": 11,
+            "운동환경": 7
+          }
+        },
+        {
+          "province": "충청북도",
+          "region_name": "청주시",
+          "national_rank": 6,
+          "regional_rank": 1,
+          "score": 9020,
+          "metrics": {
+            "걷기": 10,
+            "생활체육": 6,
+            "운동환경": 12
+          }
+        },
+        {
+          "province": "인천광역시",
+          "region_name": "연수구",
+          "national_rank": 7,
+          "regional_rank": 1,
+          "score": 8957,
+          "metrics": {
+            "걷기": 8,
+            "생활체육": 7,
+            "운동환경": 13
+          }
+        },
+        {
+          "province": "대구광역시",
+          "region_name": "수성구",
+          "national_rank": 10,
+          "regional_rank": 1,
+          "score": 8734,
+          "metrics": {
+            "걷기": 13,
+            "생활체육": 9,
+            "운동환경": 11
+          }
+        },
+        {
+          "province": "전북특별자치도",
+          "region_name": "전주시",
+          "national_rank": 11,
+          "regional_rank": 1,
+          "score": 8631,
+          "metrics": {
+            "걷기": 14,
+            "생활체육": 9,
+            "운동환경": 18
+          }
+        },
+        {
+          "province": "울산광역시",
+          "region_name": "남구",
+          "national_rank": 12,
+          "regional_rank": 1,
+          "score": 8588,
+          "metrics": {
+            "걷기": 17,
+            "생활체육": 12,
+            "운동환경": 9
+          }
+        },
+        {
+          "province": "세종특별자치시",
+          "region_name": "세종시",
+          "national_rank": 13,
+          "regional_rank": 1,
+          "score": 8490,
+          "metrics": {
+            "걷기": 6,
+            "생활체육": 15,
+            "운동환경": 10
+          }
+        },
+        {
+          "province": "충청남도",
+          "region_name": "천안시",
+          "national_rank": 14,
+          "regional_rank": 1,
+          "score": 8377,
+          "metrics": {
+            "걷기": 16,
+            "생활체육": 14,
+            "운동환경": 15
+          }
+        },
+        {
+          "province": "경상북도",
+          "region_name": "포항시",
+          "national_rank": 9,
+          "regional_rank": 1,
+          "score": 8804,
+          "metrics": {
+            "걷기": 11,
+            "생활체육": 10,
+            "운동환경": 8
+          }
+        },
+        {
+          "province": "경상남도",
+          "region_name": "창원시",
+          "national_rank": 15,
+          "regional_rank": 1,
+          "score": 8311,
+          "metrics": {
+            "걷기": 18,
+            "생활체육": 13,
+            "운동환경": 16
+          }
+        },
+        {
+          "province": "전남광주통합특별시",
+          "region_name": "광주권",
+          "national_rank": 16,
+          "regional_rank": 1,
+          "score": 8188,
+          "metrics": {
+            "걷기": 15,
+            "생활체육": 17,
+            "운동환경": 19
+          }
+        },
+        {
+          "province": "제주특별자치도",
+          "region_name": "제주시",
+          "national_rank": 5,
+          "regional_rank": 1,
+          "score": 9180,
+          "metrics": {
+            "걷기": 2,
+            "생활체육": 7,
+            "운동환경": 3
+          }
+        }
+      ]
+    }
+  ],
+  "official": [
+    {
+      "province": "서울특별시",
+      "region_name": "관악구",
+      "national_rank": 21,
+      "regional_rank": 7,
+      "previous_rank": 23,
+      "rank_change": 2,
+      "is_hot": false,
+      "state": "rising",
+      "score": 79,
+      "metrics": {
+        "접근성": 15,
+        "시설": 18,
+        "프로그램": 26
+      }
+    },
+    {
+      "province": "경기도",
+      "region_name": "수원시",
+      "national_rank": 4,
+      "regional_rank": 2,
+      "previous_rank": 4,
+      "rank_change": 0,
+      "is_hot": false,
+      "state": "top",
+      "score": 92,
+      "metrics": {
+        "접근성": 4,
+        "시설": 2,
+        "프로그램": 7
+      }
+    },
+    {
+      "province": "부산광역시",
+      "region_name": "해운대구",
+      "national_rank": 1,
+      "regional_rank": 1,
+      "previous_rank": 2,
+      "rank_change": 1,
+      "is_hot": false,
+      "state": "top",
+      "score": 97,
+      "metrics": {
+        "접근성": 2,
+        "시설": 1,
+        "프로그램": 3
+      }
+    },
+    {
+      "province": "대전광역시",
+      "region_name": "유성구",
+      "national_rank": 2,
+      "regional_rank": 1,
+      "previous_rank": 3,
+      "rank_change": 1,
+      "is_hot": false,
+      "state": "top",
+      "score": 95,
+      "metrics": {
+        "접근성": 1,
+        "시설": 4,
+        "프로그램": 2
+      }
+    },
+    {
+      "province": "강원특별자치도",
+      "region_name": "춘천시",
+      "national_rank": 13,
+      "regional_rank": 1,
+      "previous_rank": 15,
+      "rank_change": 2,
+      "is_hot": false,
+      "state": "rising",
+      "score": 84,
+      "metrics": {
+        "접근성": 16,
+        "시설": 12,
+        "프로그램": 9
+      }
+    },
+    {
+      "province": "충청북도",
+      "region_name": "청주시",
+      "national_rank": 7,
+      "regional_rank": 1,
+      "previous_rank": 8,
+      "rank_change": 1,
+      "is_hot": false,
+      "state": "rising",
+      "score": 89,
+      "metrics": {
+        "접근성": 8,
+        "시설": 7,
+        "프로그램": 11
+      }
+    },
+    {
+      "province": "인천광역시",
+      "region_name": "연수구",
+      "national_rank": 6,
+      "regional_rank": 1,
+      "previous_rank": 7,
+      "rank_change": 1,
+      "is_hot": false,
+      "state": "rising",
+      "score": 90,
+      "metrics": {
+        "접근성": 5,
+        "시설": 9,
+        "프로그램": 8
+      }
+    },
+    {
+      "province": "대구광역시",
+      "region_name": "수성구",
+      "national_rank": 9,
+      "regional_rank": 1,
+      "previous_rank": 11,
+      "rank_change": 2,
+      "is_hot": false,
+      "state": "rising",
+      "score": 87,
+      "metrics": {
+        "접근성": 10,
+        "시설": 10,
+        "프로그램": 6
+      }
+    },
+    {
+      "province": "전북특별자치도",
+      "region_name": "전주시",
+      "national_rank": 10,
+      "regional_rank": 1,
+      "previous_rank": 9,
+      "rank_change": -1,
+      "is_hot": false,
+      "state": "falling",
+      "score": 86,
+      "metrics": {
+        "접근성": 12,
+        "시설": 8,
+        "프로그램": 14
+      }
+    },
+    {
+      "province": "울산광역시",
+      "region_name": "남구",
+      "national_rank": 11,
+      "regional_rank": 1,
+      "previous_rank": 13,
+      "rank_change": 2,
+      "is_hot": false,
+      "state": "rising",
+      "score": 85,
+      "metrics": {
+        "접근성": 11,
+        "시설": 13,
+        "프로그램": 12
+      }
+    },
+    {
+      "province": "세종특별자치시",
+      "region_name": "세종시",
+      "national_rank": 5,
+      "regional_rank": 1,
+      "previous_rank": 6,
+      "rank_change": 1,
+      "is_hot": false,
+      "state": "rising",
+      "score": 91,
+      "metrics": {
+        "접근성": 6,
+        "시설": 3,
+        "프로그램": 9
+      }
+    },
+    {
+      "province": "충청남도",
+      "region_name": "천안시",
+      "national_rank": 12,
+      "regional_rank": 1,
+      "previous_rank": 10,
+      "rank_change": -2,
+      "is_hot": false,
+      "state": "falling",
+      "score": 84,
+      "metrics": {
+        "접근성": 13,
+        "시설": 11,
+        "프로그램": 15
+      }
+    },
+    {
+      "province": "경상북도",
+      "region_name": "포항시",
+      "national_rank": 8,
+      "regional_rank": 1,
+      "previous_rank": 12,
+      "rank_change": 4,
+      "is_hot": false,
+      "state": "rising",
+      "score": 88,
+      "metrics": {
+        "접근성": 9,
+        "시설": 6,
+        "프로그램": 10
+      }
+    },
+    {
+      "province": "경상남도",
+      "region_name": "창원시",
+      "national_rank": 14,
+      "regional_rank": 1,
+      "previous_rank": 16,
+      "rank_change": 2,
+      "is_hot": false,
+      "state": "rising",
+      "score": 82,
+      "metrics": {
+        "접근성": 15,
+        "시설": 14,
+        "프로그램": 13
+      }
+    },
+    {
+      "province": "전남광주통합특별시",
+      "region_name": "광주권",
+      "national_rank": 15,
+      "regional_rank": 1,
+      "previous_rank": 14,
+      "rank_change": -1,
+      "is_hot": false,
+      "state": "falling",
+      "score": 81,
+      "metrics": {
+        "접근성": 14,
+        "시설": 16,
+        "프로그램": 17
+      }
+    },
+    {
+      "province": "제주특별자치도",
+      "region_name": "제주시",
+      "national_rank": 3,
+      "regional_rank": 1,
+      "previous_rank": 1,
+      "rank_change": -2,
+      "is_hot": false,
+      "state": "top",
+      "score": 94,
+      "metrics": {
+        "접근성": 3,
+        "시설": 5,
+        "프로그램": 1
+      }
+    }
+  ]
+};

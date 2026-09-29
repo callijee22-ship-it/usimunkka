@@ -1,0 +1,1 @@
+Mint oriental room assets

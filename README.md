@@ -101,6 +101,32 @@ Level 5 해금용 캐릭터 디자인과
   <img src="./docs/visual-assets/lv5_summer_all_poses.png" width="46%">
 </p>
 
+### Character Redesign Preview
+
+프로젝트 후반에는 기존 캐릭터 스타일을 확장하기 위해  
+전통 의상과 색상 조합을 바탕으로 다양한 캐릭터 리디자인 시안을 제작했습니다.
+
+#### Concept Design
+
+<p align="center">
+  <img src="./docs/visual-assets/character-redesign/character-concept-sheet-blue-teal.png" width="46%">
+  <img src="./docs/visual-assets/character-redesign/character-concept-sheet-red-navy.png" width="46%">
+</p>
+
+초기 Concept Sheet를 기준으로 의상 색상, 장식, 실루엣과 캐릭터 표현 방식을 확장했습니다.
+
+#### Character Redesign
+
+<p align="center">
+  <img src="./docs/visual-assets/character-redesign/character-chibi-purple-dress.png" width="23%">
+  <img src="./docs/visual-assets/character-redesign/character-fullbody-purple.png" width="23%">
+  <img src="./docs/visual-assets/character-redesign/character-chibi-black-red.png" width="23%">
+  <img src="./docs/visual-assets/character-redesign/character-chibi-black-red-alt.png" width="23%">
+</p>
+
+Concept 단계에서 검토한 전통 의상 요소를  
+서비스 캐릭터에 적용할 수 있도록 여러 스타일과 색상으로 변형했습니다.
+
 ➡️ [Character Redesign Archive](./docs/visual-assets/character-redesign/)
 
 ---

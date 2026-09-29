@@ -72,7 +72,94 @@ PAGE1의 목적은 단순히 지역 순위를 보여주는 것이 아니라,
 
 ---
 
-# 01. 대한민국 지역 랭킹 지도
+# Final Frontend & Visual Contribution
+
+초기 M4 / PAGE1 작업 이후에도  
+팀 통합 과정에서 Frontend UI와 Visual Asset 작업에 참여했습니다.
+
+프로젝트 후반에는 초기 지역 경쟁 화면과 별개로  
+캐릭터 커스터마이징, 캐릭터 디자인 변형, 방 꾸미기 테마,  
+Motion Test 등 최종 서비스의 시각적 경험을 확장하는 작업을 진행했습니다.
+
+## Character Customization
+
+여성 / 남성 캐릭터를 기반으로  
+한복 및 전통 의상 콘셉트와 다양한 캐릭터 디자인 시안을 제작했습니다.
+
+<p align="center">
+  <img src="./docs/visual-assets/hanbok-female.png" width="23%">
+  <img src="./docs/visual-assets/hanbok-female-2.png" width="23%">
+  <img src="./docs/visual-assets/hanbok-male.png" width="23%">
+  <img src="./docs/visual-assets/hanbok-male-2.png" width="23%">
+</p>
+
+Level 5 해금용 캐릭터 디자인과  
+계절별 운동복 및 포즈 적용 시안도 제작했습니다.
+
+<p align="center">
+  <img src="./docs/visual-assets/lv5_winter_all_poses.png" width="46%">
+  <img src="./docs/visual-assets/lv5_summer_all_poses.png" width="46%">
+</p>
+
+➡️ [Character Redesign Archive](./docs/visual-assets/character-redesign/)
+
+---
+
+## Room Customization
+
+프로젝트 후반에는 사용자가 자신의 운동방을 꾸밀 수 있도록  
+여러 분위기의 방 테마와 가구 Asset을 제작했습니다.
+
+### Blue Oriental
+
+<p align="center">
+  <img src="./docs/visual-assets/room-assets/blue-oriental/00_empty_room.png" width="70%">
+</p>
+
+### Mint Oriental
+
+<p align="center">
+  <img src="./docs/visual-assets/room-assets/mint-oriental/empty_room.png" width="70%">
+</p>
+
+### Pink Oriental
+
+<p align="center">
+  <img src="./docs/visual-assets/room-assets/pink-oriental/00_empty_room.png" width="70%">
+</p>
+
+### Dark Oriental
+
+<p align="center">
+  <img src="./docs/visual-assets/room-assets/dark-oriental/00_empty_room.png" width="70%">
+</p>
+
+### Oriental Retro
+
+<p align="center">
+  <img src="./docs/visual-assets/room-assets/oriental-retro/00_empty_room.png" width="70%">
+</p>
+
+각 테마는 방 배경과 개별 가구 Asset을 활용할 수 있도록 구성했습니다.
+
+➡️ [Room Asset Archive](./docs/visual-assets/room-assets/)
+
+---
+
+## Motion Test
+
+캐릭터가 정적인 이미지에 머물지 않도록  
+걷기 및 움직임 표현을 위한 프레임과 GIF 테스트도 진행했습니다.
+
+➡️ [Character Motion Tests](./docs/visual-assets/motion-tests/)
+
+---
+
+# Earlier M4 / PAGE1 Contribution
+
+아래 내용은 프로젝트 초기 M4 / PAGE1 담당 당시의 개발 기록입니다.
+
+## 01. 대한민국 지역 랭킹 지도
 
 초기 PAGE1의 핵심 기능은  
 대한민국 지도를 이용한 지역 운동 랭킹 시각화였습니다.
@@ -94,19 +181,19 @@ PAGE1의 목적은 단순히 지역 순위를 보여주는 것이 아니라,
 
 ---
 
-## 당시 구현 화면
+### 당시 구현 화면
 
-### PAGE1 초기 디자인
+#### PAGE1 초기 디자인
 
 ![PAGE1 초기 화면](./docs/screenshots/page1_before_theme.png)
 
-### PAGE1 컬러 및 UI 개선
+#### PAGE1 컬러 및 UI 개선
 
 ![PAGE1 컬러 개선](./docs/screenshots/page1_color_full.png)
 
 ---
 
-# 02. 지역 상세 랭킹 Popup
+## 02. 지역 상세 랭킹 Popup
 
 지도에서 특정 지역을 선택하면  
 해당 지역의 시·군·구 정보를 확인할 수 있는  
@@ -127,7 +214,7 @@ Popup에서는 다음 정보를 표현하도록 했습니다.
 
 ---
 
-# 03. 랭킹 변화 시각화
+## 03. 랭킹 변화 시각화
 
 운동 랭킹을 단순한 숫자로만 보여주지 않고  
 사용자가 변화 상태를 시각적으로 느낄 수 있도록 구성했습니다.
@@ -143,7 +230,7 @@ Popup에서는 다음 정보를 표현하도록 했습니다.
 
 ---
 
-# 04. TOP1 Character
+## 04. TOP1 Character
 
 지역 경쟁이라는 서비스 컨셉을  
 조금 더 친근하게 전달하기 위해  
@@ -164,7 +251,7 @@ Popup에서는 다음 정보를 표현하도록 했습니다.
 
 ---
 
-# 05. 운동추천 CTA
+## 05. 운동추천 CTA
 
 PAGE1의 목적은 순위를 보여주는 것에서 끝나는 것이 아니라  
 사용자가 실제 운동 행동으로 이동할 수 있도록 연결하는 것이었습니다.
@@ -200,7 +287,7 @@ PAGE1의 목적은 순위를 보여주는 것에서 끝나는 것이 아니라
 
 ---
 
-# 06. 팀 통합 이후 Frontend 변경
+## 06. 팀 통합 이후 Frontend 변경
 
 프로젝트 후반부에는 팀 전체 UI와 서비스 구조가 크게 변경되었습니다.
 
@@ -225,7 +312,7 @@ PAGE1의 목적은 순위를 보여주는 것에서 끝나는 것이 아니라
 
 ---
 
-# 07. 최종 Frontend 통합 단계 참여
+## 07. 최종 Frontend 통합 단계 참여
 
 후반 Frontend 통합 과정에서도  
 사용자 화면과 UX 수정에 참여했습니다.
@@ -239,9 +326,7 @@ PAGE1의 목적은 순위를 보여주는 것에서 끝나는 것이 아니라
 서비스 화면 구현 및 사용자 경험 구성을  
 Frontend 팀원과 함께 진행했습니다.
 
----
-
-## Character Gender UI
+### Character Gender UI
 
 프로젝트 후반에는  
 캐릭터 성별 선택 UI와 화면 연동 수정에 참여했습니다.
@@ -261,246 +346,3 @@ FEMALE CHARACTER
 CHARACTER TYPE
         ↕
 MALE CHARACTER
-```
-
----
-
-# 08. Visual Asset Contribution
-
-프로젝트 후반에는 캐릭터 커스터마이징을 위한  
-이미지 제작 및 적용 테스트에도 참여했습니다.
-
-제가 직접 제작하거나 수정한 주요 작업은 다음과 같습니다.
-
-- 여성 / 남성 한복 캐릭터 이미지
-- Level 5 해금용 운동복 시안
-- 겨울 / 여름 의상 Sheet
-- 포즈별 의상 적용 이미지
-- 캐릭터와 의상을 분리하기 위한 의상 전용 PNG
-- 캐릭터 걷기 및 움직임 테스트
-- Motion GIF 제작 및 적용 가능성 검토
-
-초기에는 캐릭터 전체 이미지를 교체하는 방식으로 작업했지만,  
-실제 커스터마이징 적용을 고려하면서  
-캐릭터와 의상을 분리하는 방향으로 작업을 확장했습니다.
-
-자세한 이미지와 테스트 자료는 아래 문서에서 확인할 수 있습니다.
-
-➡️ [Visual Asset Contribution](./docs/visual-assets/)
-
----
-
-# 09. Development Process
-
-이 프로젝트는 한 번에 완성된 화면을 만든 것이 아니라
-
-```text
-요구사항 확인
-        ↓
-Prototype
-        ↓
-문제 발견
-        ↓
-수정
-        ↓
-팀 공유
-        ↓
-통합
-        ↓
-재수정
-```
-
-과정을 반복하며 개발했습니다.
-
-특히 팀 프로젝트에서는  
-제가 구현한 화면이 다른 팀원의 코드와 병합되고,  
-전체 디자인 시스템과 서비스 구조가 변경되면서  
-최종 코드의 형태도 크게 달라지는 경험을 했습니다.
-
-이를 통해
-
-**최종 코드에 몇 줄이 남아 있는가보다  
-프로젝트에서 어떤 문제를 맡아 해결했는가가 중요하다**
-
-는 점을 배웠습니다.
-
----
-
-# Troubleshooting
-
-## 지도 비율 문제
-
-### Problem
-
-화면 크기에 따라 대한민국 지도 형태가 찌그러지는 문제가 발생했습니다.
-
-### Solution
-
-SVG ViewBox와 부모 컨테이너의 비율,  
-반응형 크기 설정을 조정하여  
-화면 크기가 변경되어도 지도 형태가 유지되도록 수정했습니다.
-
----
-
-## 지역 데이터 누락
-
-### Problem
-
-일부 지역이 지도 또는 랭킹에서 누락되는 문제가 발생했습니다.
-
-### Solution
-
-지역 데이터와 지도 요소의 매핑을 다시 확인하고  
-누락된 지역 정보를 보완했습니다.
-
----
-
-## Popup Interaction
-
-### Problem
-
-Popup 크기와 Hover 효과,  
-Border Animation이 의도한 영역과 다르게 표현되는 문제가 있었습니다.
-
-### Solution
-
-Popup 구조와 CSS Layer를 반복적으로 수정하여  
-효과가 의도한 영역에서 표현되도록 조정했습니다.
-
----
-
-## Login Routing
-
-### Problem
-
-같은 운동추천 CTA라도  
-로그인 여부에 따라 이동 경로가 달라야 했습니다.
-
-### Solution
-
-비로그인 사용자는 로그인 화면으로,  
-로그인 사용자는 운동추천 화면으로 이동하도록  
-사용자 상태에 따른 흐름을 분리했습니다.
-
----
-
-# Tech Stack
-
-### Frontend
-
-- HTML
-- CSS
-- JavaScript
-- Django Templates
-
-### Collaboration
-
-- GitHub
-- Team-based Development
-
-### Project Environment
-
-- Python
-- Django
-- PostgreSQL
-
-> Backend와 데이터 파이프라인 전체를 제가 구현했다는 의미가 아니며,  
-> 위 기술은 팀 프로젝트의 전체 실행 환경을 포함합니다.
-
----
-
-# Contribution Scope
-
-## 직접 담당
-
-### 초기 M4 / PAGE1
-
-- 대한민국 지역 지도
-- 지역 랭킹 UI
-- 지역 상세 Popup
-- 지역 마스코트
-- TOP1 UI
-- 친구 랭킹 화면
-- 운동추천 CTA
-- PAGE1 Interaction
-- 위치 선택 CTA 흐름
-- 반응형 PAGE1
-
-## 팀 통합 과정에서 참여 / 개선
-
-### 최종 Frontend
-
-- 사용자 화면 및 UX 수정
-- 캐릭터 성별 선택 UI 및 화면 연동
-- 한복 캐릭터 Visual Asset 제작
-- Level 5 운동복 이미지 제작
-- 캐릭터 / 의상 분리 PNG 제작
-- 포즈별 캐릭터 적용 이미지 제작
-- Motion Test 및 GIF 제작
-- 현재 위치 / 지역 선택 기반 추천 UX 검토
-- 발표자료 및 서비스 화면 정리
-
-Django Backend,  
-추천 알고리즘 전체,  
-공공데이터 수집 Pipeline,  
-Database 설계 등은  
-다른 팀원의 주요 담당 영역이므로  
-개인 기여로 주장하지 않습니다.
-
----
-
-# Repository Structure
-
-```text
-.
-├─ README.md
-│
-├─ archive/
-│  └─ page1-m4/
-│     ├─ 2026-09-11-core/
-│     ├─ 2026-09-11-v3/
-│     ├─ 2026-09-14-final/
-│     └─ 04_region_popup_CTA_2026-09-14/
-│
-├─ docs/
-│  ├─ screenshots/
-│  ├─ visual-assets/
-│  │  └─ motion-tests/
-│  └─ CONTRIBUTION_EVIDENCE.md
-│
-└─ final-integration/
-   └─ README.md
-```
-
----
-
-# More Details
-
-- [M4 / PAGE1 Contribution Archive](./archive/page1-m4/)
-- [Visual Asset Contribution](./docs/visual-assets/)
-- [Final Frontend Integration](./final-integration/README.md)
-- [Contribution Evidence](./docs/CONTRIBUTION_EVIDENCE.md)
-
----
-
-# Repository Notice
-
-본 저장소의 초기 PAGE1 화면은  
-팀 통합 이전 제가 M4를 담당하던 시점의 작업물입니다.
-
-이후 팀 프로젝트의 방향과 Frontend 구조가 변경되면서  
-현재 최종 서비스와 디자인 및 기능 구성이 달라졌습니다.
-
-따라서 이 저장소는
-
-**현재 우심운까 전체 서비스의 복제본**
-
-이 아니라
-
-**팀 프로젝트에서 제가 담당하고 참여했던 Frontend 개발 과정과  
-Visual Asset 작업을 기록한 개인 기여 아카이브**
-
-입니다.
-
-팀 프로젝트의 다른 구성원이 담당한 기능을  
-개인 작업으로 표현하지 않습니다.

@@ -1,1 +1,0 @@
-Oriental retro room assets

@@ -110,37 +110,41 @@ Level 5 해금용 캐릭터 디자인과
 프로젝트 후반에는 사용자가 자신의 운동방을 꾸밀 수 있도록  
 여러 분위기의 방 테마와 가구 Asset을 제작했습니다.
 
+각 테마는 빈 공간과 개별 가구 Asset뿐 아니라  
+실제 배치가 완료된 대표 시안까지 함께 구성했습니다.
+
 ### Blue Oriental
 
 <p align="center">
-  <img src="./docs/visual-assets/room-assets/blue-oriental/00_empty_room.png" width="70%">
+  <img src="./docs/visual-assets/room-assets/blue-oriental/final_room.png" width="70%">
 </p>
 
 ### Mint Oriental
 
 <p align="center">
-  <img src="./docs/visual-assets/room-assets/mint-oriental/empty_room.png" width="70%">
+  <img src="./docs/visual-assets/room-assets/mint-oriental/final_room.png" width="70%">
 </p>
 
 ### Pink Oriental
 
 <p align="center">
-  <img src="./docs/visual-assets/room-assets/pink-oriental/00_empty_room.png" width="70%">
+  <img src="./docs/visual-assets/room-assets/pink-oriental/final_room.png" width="70%">
 </p>
 
 ### Dark Oriental
 
 <p align="center">
-  <img src="./docs/visual-assets/room-assets/dark-oriental/00_empty_room.png" width="70%">
+  <img src="./docs/visual-assets/room-assets/dark-oriental/final_room.png" width="70%">
 </p>
 
 ### Oriental Retro
 
 <p align="center">
-  <img src="./docs/visual-assets/room-assets/oriental-retro/00_empty_room.png" width="70%">
+  <img src="./docs/visual-assets/room-assets/oriental-retro/final_room.png" width="70%">
 </p>
 
-각 테마는 방 배경과 개별 가구 Asset을 활용할 수 있도록 구성했습니다.
+각 테마는 방 배경과 개별 가구 Asset을 조합해  
+서로 다른 분위기의 운동방을 구성할 수 있도록 제작했습니다.
 
 ➡️ [Room Asset Archive](./docs/visual-assets/room-assets/)
 

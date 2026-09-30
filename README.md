@@ -478,6 +478,11 @@ PROCESSED 적재
 아래 내용은 프로젝트 초기  
 M4 / PAGE1 담당 당시의 개발 기록입니다.
 
+초기 PAGE1의 버전별 코드와 프로젝트 시작 과정은  
+별도의 Archive 문서에 정리했습니다.
+
+➡️ [M4 / PAGE1 Development Archive](./archive/page1-m4/)
+
 ---
 
 ## 01. 대한민국 지역 랭킹 지도
